@@ -4,6 +4,7 @@ var NoxTimeline = {
   },
 	frame1: function () {
 		TweenLite.to(enterFor, .8, {delay: 2, opacity: 1, ease: Linear.eastOut});
+		TweenLite.to(ps4, .8, {delay: 2.5, opacity: 1, ease: Linear.eastOut});
 		TweenLite.delayedCall(5, NoxTimeline.frame2);
 	},
 	frame2: function () {
