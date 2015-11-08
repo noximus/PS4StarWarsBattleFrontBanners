@@ -3,8 +3,8 @@
 body{margin:0;}
 #container {
 	position: absolute;
-	width:728px;
-	height:90px;
+	width:970px;
+	height:66px;
 	background: url('../images/starbg.jpg');	
 	overflow:hidden;
 	cursor: pointer;
@@ -27,8 +27,8 @@ body{margin:0;}
 }
 #finalFrame{
 	background-color: #17669e;
-	width: 728px;
-	height: 90px;
+	width: 970px;
+	height: 66px;
 }
 #wave{
 	z-index: 10;
