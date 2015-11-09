@@ -1,6 +1,6 @@
 var NoxTimeline = {
   init: function () {
-    NoxTimeline.frame1Ex();
+    NoxTimeline.frame1();
   },
   frame1: function () {
     TweenLite.to(enterFor, .8, {delay: 2, opacity: 1, ease: Linear.eastOut});
