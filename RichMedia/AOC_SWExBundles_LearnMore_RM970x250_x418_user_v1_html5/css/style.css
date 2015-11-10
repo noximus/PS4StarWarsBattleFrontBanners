@@ -54,7 +54,7 @@ body{margin:0;}
   z-index: 100;
   /*background-color: red;*/
 }
-#close{
+#closeImg{
   z-index: 50;
 }
 #finalFrame, #finalFrameEx{

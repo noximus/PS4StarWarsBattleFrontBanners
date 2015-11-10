@@ -39,7 +39,7 @@ body{margin:0;}
 }
 #clickBtn{
   right: 0px;
-  top: 50px;
+  top: 0px;
   width: 175px;
   height: 50px;
   cursor: pointer;
@@ -54,7 +54,7 @@ body{margin:0;}
   z-index: 100; 
   /*background-color: red;*/
 }
-#close{
+#closeImg{
   z-index: 50;
 }
 #finalFrame, #finalFrameEx{

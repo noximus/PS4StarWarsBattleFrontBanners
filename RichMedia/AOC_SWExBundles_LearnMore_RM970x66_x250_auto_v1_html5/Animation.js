@@ -45,7 +45,7 @@ var NoxTimeline = {
     TweenLite.to(noPurchEx, 0.5, {delay:1, display: 'block',opacity:1, ease: Linear.easeOut});
     TweenLite.delayedCall(3, NoxTimeline.frame4Ex);
   },
-  frame4Ex: function () {
+  frame4Ex: function () {  
     TweenLite.to(finalFrameEx, .5, {delay: .5, opacity: 1, display: 'block', ease: Linear.easeIn});
     TweenLite.to(logoEx, .5, {delay: 1.5, opacity: 1, display: 'block', ease: Linear.easeIn});
     TweenLite.to(finaltxtEx, 0.5, {delay: 1.5, opacity: 1, display:'block', ease: Linear.easeIn});
