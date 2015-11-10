@@ -19,6 +19,7 @@ var NoxTimeline = {
   },
   frame4: function () {
     TweenLite.to(finalFrame, .5, {delay: .5, opacity: 1, display: 'block', ease: Linear.easeIn});
+    TweenLite.to(logo, 1, {delay: .5, opacity: 1, display: 'block', ease: Linear.easeIn});
     TweenLite.to(finaltxt, 0.5, {delay: 1.5, opacity: 1, display:'block', ease: Linear.easeIn});
     TweenLite.to(hash, 0.5, {delay: .5, opacity: 1, display:'block', ease: Linear.easeIn});
     TweenLite.to(lrnBtn, 0.5, {delay: 2.5, opacity: 1, display:'block', ease: Linear.easeIn});
