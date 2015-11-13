@@ -19,9 +19,9 @@ var NoxTimeline = {
   },
   frame4: function () {
     TweenLite.to(finalFrame, .5, {delay: .5, opacity: 1, display: 'block', ease: Linear.easeIn});
-    TweenLite.to(finaltxt, 0.5, {delay: 1.5, opacity: 1, display:'block', ease: Linear.easeIn});
-    TweenLite.to(logo, 0.5, {delay: 1, opacity: 1, display:'block', ease: Linear.easeIn});
-    TweenLite.to(hash, 0.5, {delay: .5, opacity: 1, display:'block', ease: Linear.easeIn});
+    TweenLite.to(finaltxt, 0.5, {delay: .5, opacity: 1, display:'block', ease: Linear.easeIn});
+    TweenLite.to(logo, 0.5, {delay: .5, opacity: 1, display:'block', ease: Linear.easeIn});
+    TweenLite.to(hash, 0.5, {delay: 1.5, opacity: 1, display:'block', ease: Linear.easeIn});
     TweenLite.to(lrnBtn, 0.5, {delay: 2.5, opacity: 1, display:'block', ease: Linear.easeIn});
   },
   frame1ExIntro: function () {
@@ -47,9 +47,9 @@ var NoxTimeline = {
   },
   frame4Ex: function () {
     TweenLite.to(finalFrameEx, .5, {delay: .5, opacity: 1, display: 'block', ease: Linear.easeIn});
-    TweenLite.to(logoEx, .5, {delay: 1.5, opacity: 1, display: 'block', ease: Linear.easeIn});
-    TweenLite.to(finaltxtEx, 0.5, {delay: 1.5, opacity: 1, display:'block', ease: Linear.easeIn});
-    TweenLite.to(hashEx, 0.5, {delay: .5, opacity: 1, display:'block', ease: Linear.easeIn});
+    TweenLite.to(logoEx, .5, {delay: .5, opacity: 1, display: 'block', ease: Linear.easeIn});
+    TweenLite.to(finaltxtEx, 0.5, {delay: .5, opacity: 1, display:'block', ease: Linear.easeIn});
+    TweenLite.to(hashEx, 0.5, {delay: 1.5, opacity: 1, display:'block', ease: Linear.easeIn});
     TweenLite.to(lrnBtnEx, 0.5, {delay: 2.5, opacity: 1, display:'block', ease: Linear.easeIn});
   }
 };

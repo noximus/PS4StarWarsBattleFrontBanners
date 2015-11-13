@@ -19,13 +19,13 @@ var NoxTimeline = {
   },
   frame4: function () {
     TweenLite.to(finalFrame, .5, {delay: .5, opacity: 1, display: 'block', ease: Linear.easeIn});
-    TweenLite.to(finaltxt, 0.5, {delay: 1.5, opacity: 1, display:'block', ease: Linear.easeIn});
-    TweenLite.to(logo, 0.5, {delay: 1, opacity: 1, display:'block', ease: Linear.easeIn});
-    TweenLite.to(hash, 0.5, {delay: .5, opacity: 1, display:'block', ease: Linear.easeIn});
+    TweenLite.to(finaltxt, 0.5, {delay: .5, opacity: 1, display:'block', ease: Linear.easeIn});
+    TweenLite.to(logo, 0.5, {delay: .5, opacity: 1, display:'block', ease: Linear.easeIn});
+    TweenLite.to(hash, 0.5, {delay: 1.5, opacity: 1, display:'block', ease: Linear.easeIn});
     TweenLite.to(lrnBtn, 0.5, {delay: 2.5, opacity: 1, display:'block', ease: Linear.easeIn});
   },
   frame1ExIntro: function () {
-    TweenLite.to(enterEx, 0, {delay: 0, opacity: 1, display: 'block', ease: Linear.easeOut});
+    TweenLite.to(enterEx, 0, {delay: 0, opacity: 0, display: 'block', ease: Linear.easeOut});
     TweenLite.to(logoEx, 0, {opacity:1, display: 'block', ease:Linear.easeInOut});
     TweenLite.to(learnMoreEx, 0, {opacity:1, display: 'block', ease:Linear.easeInOut});
     TweenLite.delayedCall(0, NoxTimeline.frame1Ex);
@@ -47,9 +47,9 @@ var NoxTimeline = {
   },
   frame4Ex: function () {
     TweenLite.to(finalFrameEx, .5, {delay: .5, opacity: 1, display: 'block', ease: Linear.easeIn});
-    TweenLite.to(logoEx, .5, {delay: 1.5, opacity: 1, display: 'block', ease: Linear.easeIn});
-    TweenLite.to(finaltxtEx, 0.5, {delay: 1.5, opacity: 1, display:'block', ease: Linear.easeIn});
-    TweenLite.to(hashEx, 0.5, {delay: .5, opacity: 1, display:'block', ease: Linear.easeIn});
+    TweenLite.to(logoEx, .5, {delay: 0.5, opacity: 1, display: 'block', ease: Linear.easeIn});
+    TweenLite.to(finaltxtEx, 0.5, {delay: 0.5, opacity: 1, display:'block', ease: Linear.easeIn});
+    TweenLite.to(hashEx, 0.5, {delay: 1.5, opacity: 1, display:'block', ease: Linear.easeIn});
     TweenLite.to(lrnBtnEx, 0.5, {delay: 2.5, opacity: 1, display:'block', ease: Linear.easeIn});
   }
 };
